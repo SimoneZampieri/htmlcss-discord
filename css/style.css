@@ -100,9 +100,12 @@ header nav ul li a{
     padding-bottom: 90px;
     background-image: url('../img/jumbo.png');
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* /header */
+
+/* main */
 
 .row{
     display: flex;
@@ -111,20 +114,26 @@ header nav ul li a{
 }
 
 .row .main{
-
-    max-width: 500px;
-    max-height: 300px;
+    background-image: url('../img/item1.svg');
+    background-size: contain;
+    width: 500px;
+    height: 350px;
+    border: 2px dotted black;
 }
 
 .row .side{
-    width: 300px;
+    width: 250px;
     height: 350px;
-    background-color: palevioletred;
     border: 2px dotted black;
 }
 
 .side h2{
-    font-size: 30px;
+    font-size: 35px;
+    padding-bottom: 30px;
+}
+
+.side p{
+    font-size: 15px;
 }
 
 .grey{
@@ -149,6 +158,8 @@ div .debug .grey{
     background-color: green;
     border: 2px dotted black;
 }
+
+/* /main */
 
 footer{
     background-color: rgb(35, 39, 42);;
