@@ -160,11 +160,22 @@ div .debug .grey{
 .big-box{
     margin: 0 auto;
     margin-top: 60px;
-    margin-bottom: 30px;
-    width: 650px;
+    margin-bottom: 50px;
+    width: 750px;
     height: 500px;
-    background-color: green;
-    border: 2px dotted black;
+    text-align: center;
+}
+
+.big-box h2{
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+
+.big-box img{
+    width: 800px;
+    height: 500px;
+    padding-bottom: 30px;
+    object-fit: cover;
 }
 
 /* /main */
