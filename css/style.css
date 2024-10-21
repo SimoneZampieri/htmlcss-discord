@@ -194,8 +194,11 @@ footer{
 .col1{
     width: 250px;
     height: 400px;
-    background-color: salmon;
-    border: 2px dotted black;
+}
+
+.col1 h3{
+    color: #758dd7;
+    font-size: 25px;
 }
 
 .col{
