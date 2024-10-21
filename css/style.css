@@ -60,15 +60,36 @@ header nav ul li a{
 
 .jumbotron h2{
     font-size: 40px;
-
 }
+
+.jumbotron section{
+    display: inline-block;
+    padding-right: 20px;
+}
+.jumbotron a{
+    text-decoration: none;
+    padding-right: 15px;
+}
+
+.jumbotron a{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+
+.jumbotron a:nth-child(2){
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+
 .debug .jumbo{
     display: flex;
     justify-content: center;
     text-align: center;
     padding-bottom: 30px;
     background-image: url('../img/jumbo.png');
-    background-size: 100%;
+    background-size: cover;
 }
 
 .row{
