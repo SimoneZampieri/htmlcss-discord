@@ -8,7 +8,11 @@
 .debug{
     max-width: 1700px;
     padding: auto;
-    background-color: aquamarine;
+    background-color: #3160e0;
+}
+
+header{
+    background-color: #3160e0;
 }
 
 .container{
@@ -17,15 +21,19 @@
     height: 50px;
     display: flex;
     justify-content: space-between;
-    background-color: yellow;
-    border: 2px dotted black;
 }
 
 .box{
     align-self: center;
     padding: 0 10px;
-    background-color: yellow;
-    border: 2px dotted black;
+}
+
+section a{
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
 }
 
 header nav ul{
@@ -40,6 +48,7 @@ header nav ul li{
 
 header nav ul li a{
     text-decoration: none;
+    color: white;
 }
 
 .jumbotron{
@@ -53,11 +62,11 @@ header nav ul li a{
 }
 
 .debug .jumbo{
-    margin: 30px;
-    padding: 10px;
     display: flex;
     justify-content: center;
     padding-bottom: 30px;
+    background-image: url('../img/jumbo.png');
+    background-size: 100%;
 }
 
 .row{
