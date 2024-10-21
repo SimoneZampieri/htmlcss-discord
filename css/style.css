@@ -11,6 +11,8 @@
     background-color: #3160e0;
 }
 
+/* header */
+
 header{
     background-color: #3160e0;
 }
@@ -95,10 +97,12 @@ header nav ul li a{
     display: flex;
     justify-content: center;
     text-align: center;
-    padding-bottom: 80px;
+    padding-bottom: 90px;
     background-image: url('../img/jumbo.png');
     background-size: cover;
 }
+
+/* /header */
 
 .row{
     display: flex;
@@ -107,10 +111,9 @@ header nav ul li a{
 }
 
 .row .main{
-    width: 500px;
-    height: 350px;
-    background-color: blue;
-    border: 2px dotted black;
+
+    max-width: 500px;
+    max-height: 300px;
 }
 
 .row .side{
@@ -118,6 +121,10 @@ header nav ul li a{
     height: 350px;
     background-color: palevioletred;
     border: 2px dotted black;
+}
+
+.side h2{
+    font-size: 30px;
 }
 
 .grey{
