@@ -151,6 +151,7 @@ div .reverse{
 
 div .debug .grey{
     display: flex;
+    align-items: center;
 }
 
 .big-box{
@@ -160,6 +161,23 @@ div .debug .grey{
     width: 750px;
     height: 500px;
     text-align: center;
+}
+
+.small-box{
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 750px;
+    height: 200px;
+    text-align: center;
+}
+
+.small-box a{
+    padding-top: 30px;
+    background-color: #8ea2e0;
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
 }
 
 .big-box h2{
