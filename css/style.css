@@ -201,11 +201,31 @@ footer{
     font-size: 25px;
 }
 
+.col1 img{
+    width: 20px;
+    margin-top: 15px;
+}
+
+.col1 span{
+    color: white;
+}
+
 .col{
     width: 150px;
     height: 400px;
-    background-color: rgb(13, 100, 100);
-    border: 2px dotted white;
+}
+
+.col p{
+   color: #758dd7;
+   font-weight: bold;
+   font-size: 20px;
+}
+
+.col ul li{
+    list-style: none;
+    color: white;
+    margin-top: 5px;
+    font-size: 15px;
 }
 
 hr{
