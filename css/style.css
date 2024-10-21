@@ -167,8 +167,10 @@ div .debug .grey{
     margin: 0 auto;
     margin-top: 30px;
     width: 750px;
-    height: 200px;
+    height: 100px;
     text-align: center;
+    background-image: url('../img/stars.svg');
+    background-size: cover;
 }
 
 .small-box a{
