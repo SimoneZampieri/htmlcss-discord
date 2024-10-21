@@ -87,7 +87,7 @@ header nav ul li a{
     margin-top: 40px;
 }
 
-.jumbotron section:nth-child(2){
+.jumbotron .black a{
     background-color: black;
     color: white;
     border-radius: 20px;
@@ -114,17 +114,19 @@ header nav ul li a{
 }
 
 .row .main{
-    background-image: url('../img/item1.svg');
-    background-size: contain;
     width: 500px;
     height: 350px;
-    border: 2px dotted black;
+}
+
+.main img{
+    width: 500px;
+    height: 350px;
+    object-fit: contain;
 }
 
 .row .side{
     width: 250px;
     height: 350px;
-    border: 2px dotted black;
 }
 
 .side h2{
