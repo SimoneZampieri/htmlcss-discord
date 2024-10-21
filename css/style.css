@@ -121,12 +121,18 @@ header nav ul li a{
 .main img{
     width: 500px;
     height: 350px;
-    object-fit: contain;
+    object-fit: cover;
+    padding-bottom: 20px;
+    padding-right: 40px;
 }
 
 .row .side{
     width: 250px;
     height: 350px;
+}
+
+.row .reverse .img{
+    padding-left: 40px;
 }
 
 .side h2{
